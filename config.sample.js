@@ -6,7 +6,7 @@ module.exports = {
 		unless they have the token lolisafe provides you with.
 		If it's set to false, then upload will be public for anyone to use.
 	*/
-	private: true,
+	private: false,
 
 	// If true, users will be able to create accounts and access their uploaded files
 	enableUserAccounts: true,
@@ -65,7 +65,7 @@ module.exports = {
 			Max file size allowed. Needs to be in MB
 			Note: When maxSize is greater than 1 MiB, you must set the client_max_body_size to the same as maxSize.
 		*/
-		maxSize: '512MB',
+		maxSize: '12MB',
 
 		// The length of the random generated name for the uploaded files
 		fileLength: 32,
@@ -81,7 +81,7 @@ module.exports = {
 			NOTE: Thumbnails are only for the admin panel and they require you
 			to install a separate binary called ffmpeg (https://ffmpeg.org/) for video files
 		*/
-		generateThumbnails: false,
+		generateThumbnails: true,
 
 		/*
 			Allows users to download a .zip file of all files in an album.
