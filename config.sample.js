@@ -25,7 +25,7 @@ module.exports = {
 		Which one you use is ultimately up to you.
 	*/
 	serveFilesWithNode: false,
-	domain: 'https://lolisafe.moe',
+	domain: 'https://upl.moe',
 
 	// Port on which to run the server
 	port: 9999,
